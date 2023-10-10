@@ -1,0 +1,25 @@
+io.cucumber.junit.UndefinedStepException: The step 'i am on the registration' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("i am on the registration")
+public void i_am_on_the_registration() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("i fill in the following information")
+public void i_fill_in_the_following_information() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("i click the \"registration\"button")
+public void i_click_the_registration_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("i should see sucess message")
+public void i_should_see_sucess_message() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

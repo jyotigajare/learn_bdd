@@ -1,0 +1,63 @@
+package com.jyoti;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions
+public class AppTest {
+	
+	public String firstName;
+	
+	public String lastName;
+	
+	public static String address;
+	
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		return "AppTest [firstName=" + firstName + ", lastName=" + lastName + "]";
+	}
+
+
+
+
+
+	public static void main(String[] args) {
+		
+		AppTest test = new AppTest();
+		test.firstName="Snehal";
+		test.lastName="Gajare";
+		test.address="Lature";
+		
+		System.out.println("Name :"+test);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*
+		 * int k=0; for(int i=0; i<20; i++) { for(int j=0; j<=20-i; j++) {
+		 * System.out.print(" "); } for(int j=0; j<=i*2; j++ ) { k+=1;
+		 * 
+		 * System.out.print("*");
+		 * 
+		 * } System.out.println(" "); } for(int i=20; i>0; i--) { for(int j=0; j<=20-i;
+		 * j++) { System.out.print(" "); } for(int j=0; j<=i*2; j++) { k+=1;
+		 * System.out.print("*"); } System.out.println(" "); }
+		 */
+	}
+	 
+}
+  

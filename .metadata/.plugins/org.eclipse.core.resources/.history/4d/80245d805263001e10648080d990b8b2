@@ -1,0 +1,61 @@
+package com.jyoti;
+
+import com.jyoti.model.Student;
+
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.mapper.ObjectMapperType;
+
+public class AppTest {
+
+	private static String uri = "http://localhost:8878";
+	private static String basePath = "softech";
+
+	public static void main(String[] args) {
+		
+	/*RestAssured.given()// GET Request
+					.baseUri(uri)
+					.basePath(basePath)
+					.when()
+					.get()
+					.then()
+					.log()
+					.all();
+	*/
+		
+	/*	
+		Student st = new Student("Jyoti","Gajare","Pune","987654213");
+		
+		RestAssured.given() //POST Request
+		.baseUri(uri)
+		.basePath(basePath)
+		.contentType(ContentType.JSON)
+		.body(st, ObjectMapperType.JACKSON_2)
+		.when()
+		.post()
+		.then()
+		.log()
+		.all();
+		*/
+		Student st = new Student();
+		st.setId(2);
+		st.setFname("Maroti");
+		st.setAddress("Nanded");
+		st.setLname("Pawar");
+		st.setMobile("98745456321");
+		
+		String data= "{\"fname\":\"Maroti\",\"lname\":\"Pawar\",\"address\":\"Nanded\",\"mobile\":\"987654321\"}";
+		
+				RestAssured.given()
+					.baseUri(uri)
+					.basePath(basePath)
+					.contentType(ContentType.JSON)
+					.body(data)
+					.when()
+					.put("/2")
+					.then()
+					.log()
+					.all();
+					
+	}
+}

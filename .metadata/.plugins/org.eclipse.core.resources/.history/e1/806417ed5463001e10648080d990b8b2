@@ -1,0 +1,21 @@
+package com.jyoti.learn_rest_aasured;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+       
+    	WebDriver driver = new FirefoxDriver();
+    	ChromeDriver ch = new ChromeDriver();
+    	ChromeDriver ch1 = (ChromeDriver)driver;
+    	
+    }
+}

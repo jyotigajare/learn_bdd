@@ -1,0 +1,27 @@
+package com.jyoti;
+
+
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+
+public class AppTest {
+
+	private static String uri="http://localhost:8878";
+	private static String basePath="softech";
+	public static void main(String[] args) {
+		
+		RestAssured.given()
+					.baseUri(uri)
+					.basePath(basePath)
+					.when()
+					.get()
+					.then()
+					.log()
+					.all();
+		RestAssured.given()
+		.baseUri(uri)
+		.basePath(basePath)
+		.contentType(ContentType.JSON)
+		.body(args)
+	}
+}

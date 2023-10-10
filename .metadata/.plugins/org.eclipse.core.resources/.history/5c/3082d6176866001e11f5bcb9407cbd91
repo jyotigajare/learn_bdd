@@ -1,0 +1,17 @@
+package TestRunner;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(dryRun = true,
+features= {"Allfeaturefile77"},glue= {"stepdefination"},plugin= {"html:target/report78/jyotigajare.html"}
+
+
+
+		)
+public class RunnerTest77 {
+
+}

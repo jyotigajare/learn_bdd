@@ -1,0 +1,4 @@
+Feature:online shopping
+Sceanrio:shopping on womens dress
+Given user is on womens section
+

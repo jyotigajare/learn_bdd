@@ -1,0 +1,76 @@
+package com.jyoti;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions
+public class AppTest {
+	
+	public String firstName;
+	
+	public String lastName;
+	
+	public static String address="Lature";
+	
+	
+	
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		return "AppTest [firstName=" + firstName + ", lastName=" + lastName + "]";
+	}
+
+
+
+
+
+	public static void main(String[] args) {
+		
+		String name = "Maroti";
+		String s = new String("Maroti222");
+		
+		System.out.println(name == s);
+		System.out.println(name.equals(s));
+		
+		
+		
+		AppTest test = new AppTest();
+		test.firstName="Snehal";
+		test.lastName="Gajare";
+	
+		
+	
+		System.out.println("Name :"+test+"Addres :"+test.address);
+		AppTest test1 = new AppTest();
+		test1.firstName="Jyoti";
+		test1.lastName="Gajare";
+		
+		
+		System.out.println("Name :"+test1+"Addres :"+test1.address);
+		
+		
+		
+		
+		
+		
+		
+		/*
+		 * int k=0; for(int i=0; i<20; i++) { for(int j=0; j<=20-i; j++) {
+		 * System.out.print(" "); } for(int j=0; j<=i*2; j++ ) { k+=1;
+		 * 
+		 * System.out.print("*");
+		 * 
+		 * } System.out.println(" "); } for(int i=20; i>0; i--) { for(int j=0; j<=20-i;
+		 * j++) { System.out.print(" "); } for(int j=0; j<=i*2; j++) { k+=1;
+		 * System.out.print("*"); } System.out.println(" "); }
+		 */
+	}
+	 
+}
+  

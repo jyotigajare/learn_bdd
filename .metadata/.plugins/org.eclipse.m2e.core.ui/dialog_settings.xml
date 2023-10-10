@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\New_Workspace\bdd"/>
+			<item value="D:\New_Workspace\learn-rest-aasured\src\test\java\com\jyoti\AppTest.java"/>
+			<item value="D:\New_Workspace\easytobdd\src\test\java\testrunner\RunnerTest.java"/>
+			<item value="D:\New_Workspace\bdds\Allfeaturefile77\jyogajare.feature"/>
+			<item value="D:\New_Workspace\bdd\Allfeaturefile\jjjjj.feature"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="bdddgajare.bddg"/>
+			<item value="bdddeva.bdd3"/>
+			<item value="bddcucu.bddc"/>
+			<item value="com.jyoti.learn_rest_aasured"/>
+			<item value="com.jyoti.learnRestassured"/>
+			<item value="com.jyotibdd.jyotibdd"/>
+			<item value="autobddframe.autobdd"/>
+			<item value="bddsofttech.bdds"/>
+			<item value="easytobdd.easytobdd"/>
+			<item value="cucumber.bdd.bdd8979"/>
+			<item value="cucumberbddframework.bddframework"/>
+			<item value="bddjyo.jyobdd"/>
+			<item value="easybdd.bdd"/>
+			<item value="com.jyoti"/>
+		</list>
+		<list key="groupId">
+			<item value="bdddgajare"/>
+			<item value="bdddeva"/>
+			<item value="bddcucu"/>
+			<item value="com.jyoti"/>
+			<item value="com.jyotibdd"/>
+			<item value="autobddframe"/>
+			<item value="bddsofttech"/>
+			<item value="easytobdd"/>
+			<item value="cucumber.bdd"/>
+			<item value="cucumberbddframework"/>
+			<item value="bddjyo"/>
+			<item value="easybdd"/>
+		</list>
+		<list key="artifactId">
+			<item value="bddg"/>
+			<item value="bdd3"/>
+			<item value="bddc"/>
+			<item value="learn-rest-aasured"/>
+			<item value="learnRestassured"/>
+			<item value="jyotibdd"/>
+			<item value="autobdd"/>
+			<item value="bdds"/>
+			<item value="easytobdd"/>
+			<item value="bdd8979"/>
+			<item value="bddframework"/>
+			<item value="jyobdd"/>
+			<item value="bdd"/>
+			<item value="learn_bdd"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

@@ -1,0 +1,25 @@
+package com.jyoti;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions
+public class AppTest {
+	
+	public static void main(String[] args) {
+		
+		int k=0;
+		for(int i=0; i<5; i++) {
+			for(int j=0; j<i; j++ ) {
+				k+=1;
+				System.out.print("*");
+			}
+			System.out.println(" ");
+		}
+	}
+	
+}
+  

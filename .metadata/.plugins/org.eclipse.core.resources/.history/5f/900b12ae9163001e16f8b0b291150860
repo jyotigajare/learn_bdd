@@ -1,0 +1,5 @@
+Feature:login the  flipkart application
+Sceanrio:user is on login 
+Given flipkart application
+When user select the mens cloths
+Then login the successfully application

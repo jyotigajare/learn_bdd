@@ -1,0 +1,5 @@
+package com.jyoti.model;
+
+public class Student {
+
+}

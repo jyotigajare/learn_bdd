@@ -1,0 +1,38 @@
+package stepdefination;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import junit.framework.Assert;
+
+public class Steps {
+	@Given("praful sir send the registration link")
+	public void praful_sir_send_the_registration_link() {
+		Assert.assertEquals("swati", "kirti");
+		System.out.println("jyoti");
+	}
+
+	@When("student fill the information")
+	public void student_fill_the_information(io.cucumber.datatable.DataTable dataTable) {
+		Assert.assertEquals("kirti", "kirti");
+		System.out.println("jyoti");
+	}
+
+	@When("click the \"registrationbutton\"and login the zoom meeting")
+	public void click_the_registrationbutton_and_login_the_zoom_meeting() {
+		Assert.assertEquals(100, 100);
+	}
+
+	@Then("see the sucess message")
+	public void see_the_sucess_message() {
+		Assert.assertEquals(100, 1000);
+		System.out.println("jyoti");
+	}
+
+
+	
+
+	}
+
+
+

@@ -1,0 +1,22 @@
+package com.jyoti;
+
+import java.util.List;
+
+import io.restassured.RestAssured;
+
+public class AppTest {
+
+	private static String uri="http://localhost:8878";
+	private static String basePath="softech";
+	public static void main(String[] args) {
+		
+		RestAssured.given()
+					.baseUri(uri)
+					.basePath(basePath)
+					.when()
+					.get()
+					.then()
+					.log()
+					.all();
+	}
+}

@@ -1,0 +1,21 @@
+package com.jyoti;
+private static String uri = "http://localhost:8878";
+private static String basePath = "softech";
+public class Getreq {
+
+	public static void main(String[] args) {
+		
+			
+			
+				
+			/*RestAssured.given()// GET Request
+							.baseUri(uri)
+							.basePath(basePath)
+							.when()
+							.get()
+							.then()
+							.log()
+							.all();
+	}
+
+}

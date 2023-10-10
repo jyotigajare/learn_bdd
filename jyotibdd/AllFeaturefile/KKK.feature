@@ -1,0 +1,7 @@
+Feature:collect college student information
+Scenario:create the student list
+Given seperate all the student records
+When enter the student branch
+And add the information student
+Then store the records
+

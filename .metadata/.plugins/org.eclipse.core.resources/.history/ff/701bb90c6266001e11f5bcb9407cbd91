@@ -1,0 +1,4 @@
+Feature:login the functionlity
+Sceanrio:valid username and password
+Given user is on login page
+When user is on home page

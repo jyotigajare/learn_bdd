@@ -1,0 +1,19 @@
+package com.jyoti;
+
+
+public class App2Test {
+
+	public static void main(String[] args) {
+		/*RestAssured.given()// GET Request
+		.baseUri(uri)
+		.basePath(basePath)
+		.when()
+		.get()
+		.then()
+		.log()
+		.all();
+*/
+		
+	}
+
+}

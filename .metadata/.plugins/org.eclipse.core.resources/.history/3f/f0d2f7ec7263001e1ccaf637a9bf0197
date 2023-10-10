@@ -1,0 +1,10 @@
+package com.jyoti;
+
+public class Getreq {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

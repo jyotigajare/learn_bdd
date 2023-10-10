@@ -1,0 +1,100 @@
+package com.jyoti;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions
+public class AppTest {
+	
+	public String firstName;
+	
+	public String lastName;
+	
+	public static String address;
+	
+	
+	{
+		this.firstName="Snehal";
+		this.lastName="Gajare";
+	}
+	
+	
+	static {
+		address="Nanded";
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "AppTest [firstName=" + firstName + ", lastName=" + lastName + "]";
+	}
+
+	
+
+
+
+
+	public static void main(String[] args) {
+		
+		Runnable r=new Runnable() {
+			public void run() {
+				for(int i=0; i<10; i++) {
+					System.out.println("child thread");
+				}
+			}
+		}; 
+		
+		Thread t = new Thread(r);
+		t.start();
+		Thread.sleep(1000);
+		for(int i=0; i<10; i++) {
+			System.out.println("Parent thread");
+		}
+		/*
+		 * StringBuffer name = new StringBuffer("Maroti"); StringBuffer s = new
+		 * StringBuffer("Maroti"); String s1 = new String("Maroti"); String s2 = new
+		 * String("Maroti");
+		 * 
+		 * 
+		 * System.out.println(s1.equals(s2)); System.out.println(name == s);
+		 * System.out.println(name.equals(s));
+		 */
+		
+		
+		
+		
+		AppTest test = new AppTest();
+		
+	
+		
+	
+		System.out.println("Name :"+test+"Addres :"+test.address);
+		AppTest test1 = new AppTest();
+	
+		
+		
+		System.out.println("Name :"+test1+"Addres :"+test1.address);
+		
+		
+		
+		
+		
+		
+		
+		/*
+		 * int k=0; for(int i=0; i<20; i++) { for(int j=0; j<=20-i; j++) {
+		 * System.out.print(" "); } for(int j=0; j<=i*2; j++ ) { k+=1;
+		 * 
+		 * System.out.print("*");
+		 * 
+		 * } System.out.println(" "); } for(int i=20; i>0; i--) { for(int j=0; j<=20-i;
+		 * j++) { System.out.print(" "); } for(int j=0; j<=i*2; j++) { k+=1;
+		 * System.out.print("*"); } System.out.println(" "); }
+		 */
+	}
+	 
+}
+  

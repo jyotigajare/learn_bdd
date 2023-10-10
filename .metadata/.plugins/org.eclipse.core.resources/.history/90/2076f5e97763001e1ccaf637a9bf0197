@@ -1,0 +1,19 @@
+package restassured;
+
+import io.restassured.RestAssured;
+
+
+public class GetRequest {
+
+	public static void main(String[] args) {
+		RestAssured.given()// GET Request
+				
+		.when()
+		.get()
+		.then()
+		.log()
+		.all();
+
+	}
+
+}
